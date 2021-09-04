@@ -11,8 +11,8 @@
 
 # fontforge
 # making xquartz first to require pw
-# brew cask install xquartz
-# brew cask install fontforge
+# brew  install xquartz
+# brew  install fontforge
 
 # mac app store installer
 # brew install mas
@@ -28,47 +28,47 @@ brew install youtube-dl
 brew install hub
 
 # mysql
-# brew install mysql
+brew install mysql
 
 
 #########
-# casks #
+# s #
 #########
 
 
 
 # Chrome
-brew cask install google-chrome
+brew  install google-chrome
 
 # Firefox
-brew cask install firefox
+brew  install firefox
 
 # Dropbox
-# brew cask install dropbox
+# brew  install dropbox
 
 # VLC
-brew cask install vlc
+brew  install vlc
 
 # nvAlt
-# brew cask install nvalt
+# brew  install nvalt
 
 # Blender
-brew cask install blender
+brew  install blender
 
 # Adobe Creative Cloud Installer (open next)
-# brew cask install adobe-creative-cloud
+# brew  install adobe-creative-cloud
 
 # epic games launcher
-# brew cask install epic-games
+brew  install epic-games
 
 # unity
-brew cask install unity-hub
+brew  install unity-hub
 
 # skype
-# brew cask install skype
+# brew  install skype
 
 # clipgrab
-brew cask install clipgrab
+brew  install clipgrab
 
 # heroku (then run `heroku login`)
 brew tap heroku/brew && brew install heroku
@@ -89,13 +89,13 @@ brew install exiftool
 # drivers #
 ###########
 
-brew tap homebrew/cask-drivers
-# brew cask install nvidia-cuda
-# brew cask install sonos
-brew cask install spotify
-# brew cask install synologyassistant
-# brew cask install xbox360-controller-driver-unofficial
+brew tap homebrew/-drivers
+# brew  install nvidia-cuda
+# brew  install sonos
+brew  install spotify
+# brew  install synologyassistant
+# brew  install xbox360-controller-driver-unofficial
 
 # ableton & max
-brew cask install ableton-live-lite
-brew cask install cycling74-max
+brew  install ableton-live-lite
+brew  install cycling74-max
