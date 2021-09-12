@@ -7,7 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "the-tools": "cli.js",
     "21-22": "cli.js"
   },
   "repository": {
@@ -21,9 +20,12 @@
   },
   "homepage": "https://github.com/learninglab-studio/the-tools-21-22#readme",
   "dependencies": {
+    "airtable": "^0.11.1",
     "chalk": "^4.1.2",
     "clear": "^0.1.0",
+    "date-fns": "^2.23.0",
     "figlet": "^1.5.2",
+    "moment": "^2.29.1",
     "yargs": "^17.1.1"
   }
 }
