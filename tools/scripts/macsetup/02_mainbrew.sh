@@ -25,7 +25,7 @@ brew install ffmpeg
 brew install youtube-dl
 
 # GitHub's hub utility
-brew install hub
+# brew install hub
 
 # mysql
 brew install mysql
@@ -56,7 +56,7 @@ brew  install vlc
 brew  install blender
 
 # Adobe Creative Cloud Installer (open next)
-# brew  install adobe-creative-cloud
+brew  install adobe-creative-cloud
 
 # epic games launcher
 brew  install epic-games

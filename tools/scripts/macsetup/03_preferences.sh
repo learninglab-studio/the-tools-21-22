@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# open FCPX to make sure the later prefs work
+
+open -a "Final Cut Pro.app"
+
 # power management for desktops
 sudo pmset displaysleep 180
 sudo systemsetup -setcomputersleep Never

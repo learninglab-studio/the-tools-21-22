@@ -2,7 +2,10 @@ const format = (require('date-fns')).format;
 const parse = (require('date-fns')).parse;
 var path = require('path');
 
-module.exports = function Shoot(shootPath) {
+module.exports = function MiscRecord(mediaPath) {
+    // maybe split photo and video in the future
+    // regex to find type
+    // for now, json-metadata-type tells us if exiftool or ffprobe json
     this.initialFolderPath = shootPath;
     this.shootId = path.basename(shootPath);
     this.dateString = this.shootId.substr(0,8);
@@ -13,7 +16,6 @@ module.exports = function Shoot(shootPath) {
     this.subfolders = [];
     this.clips = [];
     this.stills = [];
-    this.notes = "";
-    this.rename = function(){console.log("would rename here");};
+    this.notes = ""
 }
   

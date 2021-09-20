@@ -18,7 +18,7 @@ cd Development
 echo "cloning the tools"
 git clone https://github.com/learninglab-studio/the-tools-21-22.git
 
-# handle .bash_profile
+# handle .zshrc
 ZSHRC_PATH=~/.zshrc
 cd ~/Development/the-tools/tools/scripts/ex
 SCRIPTS_DIR=$(pwd)
@@ -27,12 +27,12 @@ echo "PROMPT='%2~ %# '" >> $ZSHRC_PATH
 
 # install node and then dependencies for theTools
 brew install node
-cd ~/Development/the-tools
+cd ~/Development/the-tools-21-22
 npm install
 
 
 # run all the other scripts
-cd ~/Development/the-tools/tools/scripts/macsetup
+cd ~/Development/the-tools-21-22/tools/scripts/macsetup
 
 # main packages from homebrew--go in and use comments
 # to include or exclude apps
