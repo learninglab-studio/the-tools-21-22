@@ -15,5 +15,6 @@ module.exports = function Shoot(shootPath) {
     this.stills = [];
     this.notes = "";
     this.rename = function(){console.log("would rename here");};
+    this.log = function(){console.log(JSON.stringify(this, null, 4))}
 }
   

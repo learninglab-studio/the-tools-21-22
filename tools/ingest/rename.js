@@ -25,7 +25,7 @@ const rename = async function(folderPath) {
                 const element = allTheMediaRecords[key][index];
             }
         }
-        theShoot.rename();
+        theShoot.log();
         // rename them
         // changeTheNames(allTheNamingOperations);
         // send them to Airtable
