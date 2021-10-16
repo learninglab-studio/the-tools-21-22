@@ -25,7 +25,6 @@ const rename = async function(folderPath) {
                 const element = allTheMediaRecords[key][index];
             }
         }
-        theShoot.dateTest = "Some Date";
         theShoot.log();
         // rename them
         // changeTheNames(allTheNamingOperations);
