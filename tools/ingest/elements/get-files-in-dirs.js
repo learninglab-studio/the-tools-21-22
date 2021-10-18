@@ -3,6 +3,7 @@ const fs = require("fs");
 const { log } = require("console");
 
 async function getFilesInDirs (folders) {
+    // returns array of objects with oldPath and newPath
     const allTheFiles = []
     for (let index = 0; index < folders.length; index++) {
         const element = folders[index];
