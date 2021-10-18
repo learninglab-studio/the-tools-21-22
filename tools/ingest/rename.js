@@ -1,44 +1,75 @@
 const chalk = require("chalk")
 const fs = require("fs")
-// get all the constructors at once with destructuring
+const path = require("path")
 const Shoot = require("./constructors/shoot")
-const Source = require("./constructors/source")
 const validateShootPath = require("./elements/validate-shoot-path")
-const getDirsInDir = require("./elements/get-dirs-in-dir")
-const getFilesInDirs = require("./elements/get-files-in-dirs")
-const mediaRecordsFromFiles = require("./elements/media-records-from-files")
-
 
 const rename = async function(folderPath) {
     console.log(chalk.blue(`*************\nlaunching rename with folderpath:\n${JSON.stringify(folderPath, null, 4)}`))
     if (validateShootPath(folderPath)) {
-        // create new shoot here or at the end?
         const theShoot = new Shoot(folderPath);
         const allTheSubFolders = await getDirsInDir(folderPath);
-        // in the future maybe rename the folders from stems
-        // add all of these subfolders as sources for the shoot
-        const allTheFiles = await getFilesInDirs(allTheSubFolders);
-        const allTheMediaRecords = await mediaRecordsFromFiles(allTheFiles);
-        // loop through keys in allTheMediaRecords to handle all the files in the various buckets
-        for (let key in allTheMediaRecords) {
-            for (let index = 0; index < allTheMediaRecords[key].length; index++) {
-                const element = allTheMediaRecords[key][index];
-            }
-        }
-        theShoot.dateTest = "Some Date";
+        theShoot.files = await createFileObjects(allTheSubFolders, theShoot.shootId)
         theShoot.log();
-        // rename them
-        // changeTheNames(allTheNamingOperations);
-        // send them to Airtable
+        console.log(`about to change names`);
+        await changeTheNames(theShoot.files);
     } else {
         console.log(`doesn't look like ${folderPath} is a valid shootFolder`)
         return false
     }
 }
 
+const getDirsInDir = async function (dirPath) {
+    console.log("getting the directories in this directory");
+    const dirPaths = []
+    const dirsInDir = fs.readdirSync(dirPath);
+    for (let i = 0; i < dirsInDir.length; i++) {
+        const element = dirsInDir[i];
+        if (element!==".DS_Store" && fs.statSync(path.join(dirPath, element)).isDirectory()) {
+            dirPaths.push(path.join(dirPath, element));
+          }
+    }
+    console.log(JSON.stringify(dirPaths))
+    return dirPaths;
+}
+
+async function createFileObjects(folders, shootId){
+    const allTheFiles = []
+    for (let index = 0; index < folders.length; index++) {
+        const element = folders[index];
+        const theseFiles = await getDirFiles(element, shootId);
+        allTheFiles.push(...theseFiles);
+    }
+    return allTheFiles;
+}
+
+const getDirFiles = async function (dirPath, shootId) {
+    console.log(`getting the paths in ${dirPath}`);
+    const fileObjects = []
+    const filesInDir = fs.readdirSync(dirPath);
+    for (let i = 0; i < filesInDir.length; i++) {
+        const element = filesInDir[i];
+        if (element!==".DS_Store" && !fs.statSync(path.join(dirPath, element)).isDirectory()) {
+            let extension = path.extname(path.join(dirPath, element));
+            fileObjects.push(
+                {
+                    oldPath: path.join(dirPath, element),
+                    newPath: path.join(dirPath, `${shootId}_${path.basename(dirPath)}.${('0000'+i+1).slice(-4)}${extension}`)
+                }
+            );
+        } 
+        // else handle subfolders in the wrong place and wrong files
+    }
+    return fileObjects;
+}
+
 async function changeTheNames(operationArray) {
-    console.log(`renaming x to y`);
-    return("array of naming operations");
+    // accepts array of objects with {oldPath: '/some/path' newPath: '/some/path'}
+    for (let index = 0; index < operationArray.length; index++) {
+        const element = operationArray[index];
+        console.log(`we will rename ${element.oldPath} to ${element.newPath}`);
+        fs.renameSync(element.oldPath, element.newPath)
+    }
 }
 
 module.exports = rename

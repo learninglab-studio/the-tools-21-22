@@ -10,6 +10,7 @@ module.exports = function Shoot(shootPath) {
     this.date = parse("20210912", "yyyyMMdd", new Date());
     this.formattedDate = format(this.date, 'MM/dd/yyyy')
     this.cameras = [];
+    this.files = [];
     this.subfolders = [];
     this.clips = [];
     this.stills = [];
