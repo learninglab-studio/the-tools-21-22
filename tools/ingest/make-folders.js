@@ -23,6 +23,13 @@ const standardFolders = [
     `amx.a.pgm`,
     `c300.a.qt`,
     `c300.b.qt`,
+    `c200.a.h264`,
+    `c200.b.h264`,
+    `sho.a.prores`,
+    `hyper.a.prores`,
+    `hyper.b.prores`,
+    `hyper.c.prores`,
+    `hyper.d.prores`,
 ]
 
 const makeFolders = async function(folderPath) {
