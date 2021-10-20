@@ -93,7 +93,7 @@ brew tap homebrew/-drivers
 # brew  install nvidia-cuda
 # brew  install sonos
 brew  install spotify
-# brew  install synologyassistant
+brew  install synologyassistant
 # brew  install xbox360-controller-driver-unofficial
 
 # ableton & max
