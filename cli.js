@@ -23,8 +23,6 @@ if (yargs.mk) {
     makeFolders(yargs.makefolders)
 } else if (yargs.m2s) {
     m2s(yargs.m2s)
-} else if (yargs.secs2hms) {
-    secs2hms(yargs.secs2hms, "20211031 5:01:01")
-} else if (yargs.secs2tc) {
-    secs2tc(yargs.secs2tc)
+} else {
+    console.log(`sorry, you didn't enter a recognized command.`)
 }
