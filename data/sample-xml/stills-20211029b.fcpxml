@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fcpxml>
+
+<fcpxml version="1.10">
+    <resources>
+        <format id="r1" name="FFVideoFormat1080p24" frameDuration="100/2400s" width="1920" height="1080" colorSpace="1-1-1 (Rec. 709)"/>
+        <asset id="r2" name="20211029.0.001_Bok.BTS.HappyHour_c200.a.sd.0002" uid="B12AE5B253B8475B1960ECEFFE7E56DC" start="2024392000/24000s" duration="146172000/24000s" hasVideo="1" format="r1" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
+            <media-rep kind="original-media" sig="B12AE5B253B8475B1960ECEFFE7E56DC" src="file:///Volumes/storage/ingest-20211029/20211029.0.001_Bok.BTS.HappyHour/c200.a.sd/20211029.0.001_Bok.BTS.HappyHour_c200.a.sd.0002.MP4">
+                <bookmark>Ym9vaygEAAAAAAQQMAAAANdgzn+XJoZAjXIneIYgNRlM3cSJNpkv9kIORfEDV0VDSAMAAAQAAAADAwAAABgAKAcAAAABAQAAVm9sdW1lcwAHAAAAAQEAAHN0b3JhZ2UADwAAAAEBAABpbmdlc3QtMjAyMTEwMjkAIAAAAAEBAAAyMDIxMTAyOS4wLjAwMV9Cb2suQlRTLkhhcHB5SG91cgkAAAABAQAAYzIwMC5hLnNkAAAAMwAAAAEBAAAyMDIxMTAyOS4wLjAwMV9Cb2suQlRTLkhhcHB5SG91cl9jMjAwLmEuc2QuMDAwMi5NUDQAGAAAAAEGAAAQAAAAIAAAADAAAABIAAAAcAAAAIQAAAAIAAAABAMAAMhmAAAAAAAACAAAAAQDAAACAAAAAAAAAAgAAAAEAwAAhkYAAAAAAAAIAAAABAMAAIdGAAAAAAAACAAAAAQDAACIRgAAAAAAAAgAAAAEAwAAjEYAAAAAAAAYAAAAAQYAAOAAAADwAAAAAAEAABABAAAgAQAAMAEAAAgAAAAABAAAQcOWSukAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAABgAAAABCQAAZmlsZTovLy9Wb2x1bWVzL3N0b3JhZ2UvCAAAAAQDAAAAkIKW5wAAAAgAAAAABAAAQcN3RUoM1ockAAAAAQEAADhCMEIxQTU0LUFEQ0ItNEUwRC04NjkxLUY0MUQwNzNBMThDQRgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAEAAAAAEBAAAvVm9sdW1lcy9zdG9yYWdlCAAAAAEJAABmaWxlOi8vLwQAAAABAQAAbWtfMAgAAAAABAAAQcOOkO8AAAAkAAAAAQEAAEM1NjdERTA4LTYwRTctNDg5NS1BQjIxLTg5OTA3NjBEMDVDQQEAAAABAQAALwAAAGAAAAD+////APAAAAAAAAAHAAAAAiAAAIwCAAAAAAAABSAAADQCAAAAAAAAECAAAEQCAAAAAAAAESAAAGACAAAAAAAAEiAAALABAAAAAAAAEyAAAFACAAAAAAAAICAAAPwBAAAAAAAABAAAAAMDAAAA8AAABAAAAAMDAAAAAAAABAAAAAMDAAABAAAAHAAAAAEGAAAAAwAADAMAABgDAAAMAwAADAMAAAwDAAAMAwAAqAAAAP7///8BAAAAmAIAAA0AAAAEEAAAwAAAAAAAAAAFEAAAQAEAAAAAAAAQEAAAcAEAAAAAAABAEAAAYAEAAAAAAAAAIAAAJAMAAAAAAAACIAAAHAIAAAAAAAAFIAAAkAEAAAAAAAAQIAAAIAAAAAAAAAARIAAA0AEAAAAAAAASIAAAsAEAAAAAAAATIAAAwAEAAAAAAAAgIAAA/AEAAAAAAAAQ0AAABAAAAAAAAAA=</bookmark>
+            </media-rep>
+            <metadata>
+                <md key="com.apple.proapps.studio.rawToLogConversion" value="0"/>
+                <md key="com.apple.proapps.spotlight.kMDItemProfileName" value="HD (1-1-1)"/>
+                <md key="com.apple.proapps.studio.cameraISO" value="0"/>
+                <md key="com.apple.proapps.studio.cameraColorTemperature" value="0"/>
+                <md key="com.apple.proapps.spotlight.kMDItemCodecs">
+                    <array>
+                        <string>'avc1'</string>
+                        <string>AAC</string>
+                    </array>
+                </md>
+                <md key="com.apple.proapps.mio.ingestDate" value="2021-10-31 12:10:47 -0400"/>
+            </metadata>
+        </asset>
+        <asset id="r3" name="20211029.0.001_Bok.BTS.HappyHour_c200.a.sd.0001" uid="47823CEF9D39E678303EA019BD183FBD" start="2024314000/24000s" duration="2s" hasVideo="1" format="r1" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
+            <media-rep kind="original-media" sig="47823CEF9D39E678303EA019BD183FBD" src="file:///Volumes/storage/ingest-20211029/20211029.0.001_Bok.BTS.HappyHour/c200.a.sd/20211029.0.001_Bok.BTS.HappyHour_c200.a.sd.0001.MP4">
+                <bookmark>Ym9vaygEAAAAAAQQMAAAAPWjjoi7Oo655iDm138hh3Mv62mB9PL4HMPNouLn0eyHSAMAAAQAAAADAwAAABgAKAcAAAABAQAAVm9sdW1lcwAHAAAAAQEAAHN0b3JhZ2UADwAAAAEBAABpbmdlc3QtMjAyMTEwMjkAIAAAAAEBAAAyMDIxMTAyOS4wLjAwMV9Cb2suQlRTLkhhcHB5SG91cgkAAAABAQAAYzIwMC5hLnNkAAAAMwAAAAEBAAAyMDIxMTAyOS4wLjAwMV9Cb2suQlRTLkhhcHB5SG91cl9jMjAwLmEuc2QuMDAwMS5NUDQAGAAAAAEGAAAQAAAAIAAAADAAAABIAAAAcAAAAIQAAAAIAAAABAMAAMhmAAAAAAAACAAAAAQDAAACAAAAAAAAAAgAAAAEAwAAhkYAAAAAAAAIAAAABAMAAIdGAAAAAAAACAAAAAQDAACIRgAAAAAAAAgAAAAEAwAAi0YAAAAAAAAYAAAAAQYAAOAAAADwAAAAAAEAABABAAAgAQAAMAEAAAgAAAAABAAAQcOWPwOAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAABgAAAABCQAAZmlsZTovLy9Wb2x1bWVzL3N0b3JhZ2UvCAAAAAQDAAAAkIKW5wAAAAgAAAAABAAAQcN3RUoM1ockAAAAAQEAADhCMEIxQTU0LUFEQ0ItNEUwRC04NjkxLUY0MUQwNzNBMThDQRgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAEAAAAAEBAAAvVm9sdW1lcy9zdG9yYWdlCAAAAAEJAABmaWxlOi8vLwQAAAABAQAAbWtfMAgAAAAABAAAQcOOkO8AAAAkAAAAAQEAAEM1NjdERTA4LTYwRTctNDg5NS1BQjIxLTg5OTA3NjBEMDVDQQEAAAABAQAALwAAAGAAAAD+////APAAAAAAAAAHAAAAAiAAAIwCAAAAAAAABSAAADQCAAAAAAAAECAAAEQCAAAAAAAAESAAAGACAAAAAAAAEiAAALABAAAAAAAAEyAAAFACAAAAAAAAICAAAPwBAAAAAAAABAAAAAMDAAAA8AAABAAAAAMDAAAAAAAABAAAAAMDAAABAAAAHAAAAAEGAAAAAwAADAMAABgDAAAMAwAADAMAAAwDAAAMAwAAqAAAAP7///8BAAAAmAIAAA0AAAAEEAAAwAAAAAAAAAAFEAAAQAEAAAAAAAAQEAAAcAEAAAAAAABAEAAAYAEAAAAAAAAAIAAAJAMAAAAAAAACIAAAHAIAAAAAAAAFIAAAkAEAAAAAAAAQIAAAIAAAAAAAAAARIAAA0AEAAAAAAAASIAAAsAEAAAAAAAATIAAAwAEAAAAAAAAgIAAA/AEAAAAAAAAQ0AAABAAAAAAAAAA=</bookmark>
+            </media-rep>
+            <metadata>
+                <md key="com.apple.proapps.studio.rawToLogConversion" value="0"/>
+                <md key="com.apple.proapps.spotlight.kMDItemProfileName" value="HD (1-1-1)"/>
+                <md key="com.apple.proapps.studio.cameraISO" value="0"/>
+                <md key="com.apple.proapps.studio.cameraColorTemperature" value="0"/>
+                <md key="com.apple.proapps.spotlight.kMDItemCodecs">
+                    <array>
+                        <string>'avc1'</string>
+                        <string>AAC</string>
+                    </array>
+                </md>
+                <md key="com.apple.proapps.mio.ingestDate" value="2021-10-31 12:10:47 -0400"/>
+            </metadata>
+        </asset>
+        <asset id="r4" name="20211029.0.001_Bok.BTS.HappyHour_5d.a.mov.0001" uid="A37C6455A323496CB51541EF8F1333E0" start="0s" duration="157157/24000s" hasVideo="1" format="r5" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
+            <media-rep kind="original-media" sig="A37C6455A323496CB51541EF8F1333E0" src="file:///Volumes/storage/ingest-20211029/20211029.0.001_Bok.BTS.HappyHour/5d.a.mov/20211029.0.001_Bok.BTS.HappyHour_5d.a.mov.0001.MP4">
+                <bookmark>Ym9vayQEAAAAAAQQMAAAALCgeQ+WlhqK3BXal45Fvn/AUgPjcnYbzf3MJaTN7O0wRAMAAAQAAAADAwAAABgAKAcAAAABAQAAVm9sdW1lcwAHAAAAAQEAAHN0b3JhZ2UADwAAAAEBAABpbmdlc3QtMjAyMTEwMjkAIAAAAAEBAAAyMDIxMTAyOS4wLjAwMV9Cb2suQlRTLkhhcHB5SG91cggAAAABAQAANWQuYS5tb3YyAAAAAQEAADIwMjExMDI5LjAuMDAxX0Jvay5CVFMuSGFwcHlIb3VyXzVkLmEubW92LjAwMDEuTVA0AAAYAAAAAQYAABAAAAAgAAAAMAAAAEgAAABwAAAAgAAAAAgAAAAEAwAAyGYAAAAAAAAIAAAABAMAAAIAAAAAAAAACAAAAAQDAACGRgAAAAAAAAgAAAAEAwAAh0YAAAAAAAAIAAAABAMAAJNGAAAAAAAACAAAAAQDAACfRgAAAAAAABgAAAABBgAA3AAAAOwAAAD8AAAADAEAABwBAAAsAQAACAAAAAAEAABBw5ZErAAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAGAAAAAEJAABmaWxlOi8vL1ZvbHVtZXMvc3RvcmFnZS8IAAAABAMAAACQgpbnAAAACAAAAAAEAABBw3dFSgzWhyQAAAABAQAAOEIwQjFBNTQtQURDQi00RTBELTg2OTEtRjQxRDA3M0ExOENBGAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAAQAAAAAQEAAC9Wb2x1bWVzL3N0b3JhZ2UIAAAAAQkAAGZpbGU6Ly8vBAAAAAEBAABta18wCAAAAAAEAABBw46Q7wAAACQAAAABAQAAQzU2N0RFMDgtNjBFNy00ODk1LUFCMjEtODk5MDc2MEQwNUNBAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAAiAIAAAAAAAAFIAAAMAIAAAAAAAAQIAAAQAIAAAAAAAARIAAAXAIAAAAAAAASIAAArAEAAAAAAAATIAAATAIAAAAAAAAgIAAA+AEAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAcAAAAAQYAAPwCAAAIAwAAFAMAAAgDAAAIAwAACAMAAAgDAACoAAAA/v///wEAAACUAgAADQAAAAQQAAC8AAAAAAAAAAUQAAA8AQAAAAAAABAQAABsAQAAAAAAAEAQAABcAQAAAAAAAAAgAAAgAwAAAAAAAAIgAAAYAgAAAAAAAAUgAACMAQAAAAAAABAgAAAgAAAAAAAAABEgAADMAQAAAAAAABIgAACsAQAAAAAAABMgAAC8AQAAAAAAACAgAAD4AQAAAAAAABDQAAAEAAAAAAAAAA==</bookmark>
+            </media-rep>
+            <metadata>
+                <md key="com.apple.proapps.studio.rawToLogConversion" value="0"/>
+                <md key="com.apple.proapps.spotlight.kMDItemProfileName" value="HD (1-1-1)"/>
+                <md key="com.apple.proapps.studio.cameraISO" value="0"/>
+                <md key="com.apple.proapps.studio.cameraColorTemperature" value="0"/>
+                <md key="com.apple.proapps.spotlight.kMDItemCodecs">
+                    <array>
+                        <string>'avc1'</string>
+                        <string>AAC</string>
+                    </array>
+                </md>
+                <md key="com.apple.proapps.mio.ingestDate" value="2021-10-31 12:10:47 -0400"/>
+            </metadata>
+        </asset>
+        <format id="r5" name="FFVideoFormat1080p2398" frameDuration="1001/24000s" width="1920" height="1080" colorSpace="1-1-1 (Rec. 709)"/>
+        <asset id="r6" name="20211029.0.001_Bok.BTS.HappyHour_5d.a.mov.0002" uid="8C95469BFFCBF28366133787438C1070" start="0s" duration="125125/24000s" hasVideo="1" format="r5" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
+            <media-rep kind="original-media" sig="8C95469BFFCBF28366133787438C1070" src="file:///Volumes/storage/ingest-20211029/20211029.0.001_Bok.BTS.HappyHour/5d.a.mov/20211029.0.001_Bok.BTS.HappyHour_5d.a.mov.0002.MP4">
+                <bookmark>Ym9vayQEAAAAAAQQMAAAADjiD3p5w29YFqemJzhWu8O9mefCUtJdMoLRuvfgXvGFRAMAAAQAAAADAwAAABgAKAcAAAABAQAAVm9sdW1lcwAHAAAAAQEAAHN0b3JhZ2UADwAAAAEBAABpbmdlc3QtMjAyMTEwMjkAIAAAAAEBAAAyMDIxMTAyOS4wLjAwMV9Cb2suQlRTLkhhcHB5SG91cggAAAABAQAANWQuYS5tb3YyAAAAAQEAADIwMjExMDI5LjAuMDAxX0Jvay5CVFMuSGFwcHlIb3VyXzVkLmEubW92LjAwMDIuTVA0AAAYAAAAAQYAABAAAAAgAAAAMAAAAEgAAABwAAAAgAAAAAgAAAAEAwAAyGYAAAAAAAAIAAAABAMAAAIAAAAAAAAACAAAAAQDAACGRgAAAAAAAAgAAAAEAwAAh0YAAAAAAAAIAAAABAMAAJNGAAAAAAAACAAAAAQDAACgRgAAAAAAABgAAAABBgAA3AAAAOwAAAD8AAAADAEAABwBAAAsAQAACAAAAAAEAABBw5ZEtgAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAGAAAAAEJAABmaWxlOi8vL1ZvbHVtZXMvc3RvcmFnZS8IAAAABAMAAACQgpbnAAAACAAAAAAEAABBw3dFSgzWhyQAAAABAQAAOEIwQjFBNTQtQURDQi00RTBELTg2OTEtRjQxRDA3M0ExOENBGAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAAQAAAAAQEAAC9Wb2x1bWVzL3N0b3JhZ2UIAAAAAQkAAGZpbGU6Ly8vBAAAAAEBAABta18wCAAAAAAEAABBw46Q7wAAACQAAAABAQAAQzU2N0RFMDgtNjBFNy00ODk1LUFCMjEtODk5MDc2MEQwNUNBAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAAiAIAAAAAAAAFIAAAMAIAAAAAAAAQIAAAQAIAAAAAAAARIAAAXAIAAAAAAAASIAAArAEAAAAAAAATIAAATAIAAAAAAAAgIAAA+AEAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAcAAAAAQYAAPwCAAAIAwAAFAMAAAgDAAAIAwAACAMAAAgDAACoAAAA/v///wEAAACUAgAADQAAAAQQAAC8AAAAAAAAAAUQAAA8AQAAAAAAABAQAABsAQAAAAAAAEAQAABcAQAAAAAAAAAgAAAgAwAAAAAAAAIgAAAYAgAAAAAAAAUgAACMAQAAAAAAABAgAAAgAAAAAAAAABEgAADMAQAAAAAAABIgAACsAQAAAAAAABMgAAC8AQAAAAAAACAgAAD4AQAAAAAAABDQAAAEAAAAAAAAAA==</bookmark>
+            </media-rep>
+            <metadata>
+                <md key="com.apple.proapps.studio.rawToLogConversion" value="0"/>
+                <md key="com.apple.proapps.spotlight.kMDItemProfileName" value="HD (1-1-1)"/>
+                <md key="com.apple.proapps.studio.cameraISO" value="0"/>
+                <md key="com.apple.proapps.studio.cameraColorTemperature" value="0"/>
+                <md key="com.apple.proapps.spotlight.kMDItemCodecs">
+                    <array>
+                        <string>'avc1'</string>
+                        <string>AAC</string>
+                    </array>
+                </md>
+                <md key="com.apple.proapps.mio.ingestDate" value="2021-10-31 12:10:47 -0400"/>
+            </metadata>
+        </asset>
+    </resources>
+    <library location="file:///Users/mk/Movies/Stills-test.fcpbundle/">
+        <event name="testing" uid="D310BC01-B964-4946-A820-D5A609B2F3F6">
+            <project name="stills-20211029" uid="7B2EF351-D1C7-4907-976D-BFF5E0F7F352" modDate="2021-10-31 14:08:52 -0400">
+                <sequence format="r1" duration="12095500/2400s" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
+                    <spine>
+                        <asset-clip ref="r2" offset="0s" name="20211029.0.001_Bok.BTS.HappyHour_c200.a.sd.0002" start="2049939000/24000s" duration="120625000/24000s" tcFormat="NDF" audioRole="dialogue">
+                            <keyword start="253049/3s" duration="146172000/24000s" value="20211029.0.001_bok.bts.happyhour, c200.a.sd"/>
+                            <marker start="253085/3s" duration="100/2400s" value="Marker 2"/>
+                            <marker start="2055229/24s" duration="100/2400s" value="Marker 3"/>
+                            <marker start="687913/8s" duration="100/2400s" value="Marker 4"/>
+                            <marker start="172131/2s" duration="100/2400s" value="Marker 1"/>
+                            <marker start="2073553/24s" duration="100/2400s" value="Marker 5"/>
+                            <marker start="259720/3s" duration="100/2400s" value="Marker 6"/>
+                            <marker start="262300/3s" duration="100/2400s" value="Marker 7"/>
+                            <marker start="702221/8s" duration="100/2400s" value="Marker 8"/>
+                            <marker start="1059601/12s" duration="100/2400s" value="Marker 9"/>
+                            <marker start="176879/2s" duration="100/2400s" value="Marker 10"/>
+                            <marker start="2123405/24s" duration="100/2400s" value="Marker 11"/>
+                            <marker start="1061867/12s" duration="100/2400s" value="Marker 12"/>
+                            <marker start="708189/8s" duration="100/2400s" value="Marker 13"/>
+                            <marker start="88731s" duration="100/2400s" value="Marker 14"/>
+                            <marker start="2131687/24s" duration="100/2400s" value="Marker 15"/>
+                            <marker start="711465/8s" duration="100/2400s" value="Marker 16"/>
+                            <marker start="2134457/24s" duration="100/2400s" value="Marker 17"/>
+                            <marker start="711489/8s" duration="100/2400s" value="Marker 18"/>
+                            <marker start="2135749/24s" duration="100/2400s" value="Marker 19"/>
+                            <marker start="712143/8s" duration="100/2400s" value="Marker 20"/>
+                            <marker start="2136547/24s" duration="100/2400s" value="Marker 21"/>
+                            <marker start="2136671/24s" duration="100/2400s" value="Marker 22"/>
+                            <marker start="2137441/24s" duration="100/2400s" value="Marker 23"/>
+                            <marker start="1082203/12s" duration="100/2400s" value="Marker 24"/>
+                            <marker start="1082993/12s" duration="100/2400s" value="Marker 25"/>
+                        </asset-clip>
+                        <asset-clip ref="r3" offset="120625000/24000s" name="20211029.0.001_Bok.BTS.HappyHour_c200.a.sd.0001" start="2024314000/24000s" duration="2s" tcFormat="NDF" audioRole="dialogue">
+                            <keyword start="1012157/12s" duration="2s" value="20211029.0.001_bok.bts.happyhour, c200.a.sd"/>
+                            <marker start="674773/8s" duration="100/2400s" value="Marker 26"/>
+                        </asset-clip>
+                        <asset-clip ref="r4" offset="12067300/2400s" name="20211029.0.001_Bok.BTS.HappyHour_5d.a.mov.0001" duration="157/24s" format="r5" tcFormat="NDF" audioRole="dialogue">
+                            <conform-rate srcFrameRate="23.98"/>
+                            <keyword start="0s" duration="157157/24000s" value="20211029.0.001_bok.bts.happyhour, 5d.a.mov"/>
+                            <marker start="17017/12000s" duration="100/2400s" value="Marker 27"/>
+                            <marker start="7007/2400s" duration="100/2400s" value="Marker 28"/>
+                        </asset-clip>
+                        <asset-clip ref="r6" offset="12083000/2400s" name="20211029.0.001_Bok.BTS.HappyHour_5d.a.mov.0002" duration="125/24s" format="r5" tcFormat="NDF" audioRole="dialogue">
+                            <conform-rate srcFrameRate="23.98"/>
+                            <keyword start="0s" duration="125125/24000s" value="20211029.0.001_bok.bts.happyhour, 5d.a.mov"/>
+                            <marker start="1001/375s" duration="100/2400s" value="Marker 29"/>
+                        </asset-clip>
+                    </spine>
+                </sequence>
+            </project>
+        </event>
+        <smart-collection name="Projects" match="all">
+            <match-clip rule="is" type="project"/>
+        </smart-collection>
+        <smart-collection name="All Video" match="any">
+            <match-media rule="is" type="videoOnly"/>
+            <match-media rule="is" type="videoWithAudio"/>
+        </smart-collection>
+        <smart-collection name="Audio Only" match="all">
+            <match-media rule="is" type="audioOnly"/>
+        </smart-collection>
+        <smart-collection name="Stills" match="all">
+            <match-media rule="is" type="stills"/>
+        </smart-collection>
+        <smart-collection name="Favorites" match="all">
+            <match-ratings value="favorites"/>
+        </smart-collection>
+    </library>
+</fcpxml>

@@ -7,7 +7,8 @@ var chalk = require('chalk');
 const mk = require('./tools/mk/index')
 const rename = require('./tools/ingest/rename')
 const makeFolders = require('./tools/ingest/make-folders')
-
+const m2s = require('./tools/m2s/index.js')
+const { secs2hms, secs2tc } = require('./tools/utilities/ll-time-tools')
 
 // store any arguments passed in using yargs
 var yargs = require('yargs').argv;
@@ -20,4 +21,10 @@ if (yargs.mk) {
     rename(yargs.rename)
 } else if (yargs.makefolders) {
     makeFolders(yargs.makefolders)
+} else if (yargs.m2s) {
+    m2s(yargs.m2s)
+} else if (yargs.secs2hms) {
+    secs2hms(yargs.secs2hms, "20211031 5:01:01")
+} else if (yargs.secs2tc) {
+    secs2tc(yargs.secs2tc)
 }
