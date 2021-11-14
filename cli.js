@@ -9,6 +9,7 @@ const rename = require('./tools/ingest/rename')
 const makeFolders = require('./tools/ingest/make-folders')
 const m2s = require('./tools/m2s/index.js')
 const { secs2hms, secs2tc } = require('./tools/utilities/ll-time-tools')
+require('dotenv').config();
 
 // store any arguments passed in using yargs
 var yargs = require('yargs').argv;

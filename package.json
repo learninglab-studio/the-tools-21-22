@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "21-22": "cli.js"
+    "21-22": "cli.js",
+    "ll": "_ll.js"
   },
   "repository": {
     "type": "git",
@@ -21,10 +22,12 @@
   "homepage": "https://github.com/learninglab-studio/the-tools-21-22#readme",
   "dependencies": {
     "airtable": "^0.11.1",
+    "atem-connection": "^2.3.1",
     "chalk": "^4.1.2",
     "clear": "^0.1.0",
     "date-fns": "^2.25.0",
     "date-fns-tz": "^1.1.6",
+    "dotenv": "^10.0.0",
     "figlet": "^1.5.2",
     "moment": "^2.29.1",
     "xml2js": "^0.4.23",
