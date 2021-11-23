@@ -11,6 +11,10 @@ const appsToStart = [
     {
         app: "/Applications/Blackmagic ATEM Switchers/ATEM Software Control.app",
         file: ""
+    },
+    {
+        app: "Slack",
+        file: ""
     }
 ]
 
