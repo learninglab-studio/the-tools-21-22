@@ -51,13 +51,14 @@ const getDirFiles = async function (dirPath, shootId) {
         const element = filesInDir[i];
         if (element!==".DS_Store" && !fs.statSync(path.join(dirPath, element)).isDirectory()) {
             let extension = path.extname(path.join(dirPath, element));
+            let theCounter = 1+i
             fileObjects.push(
                 {
                     oldPath: path.join(dirPath, element),
-                    newPath: path.join(dirPath, `${shootId}_${path.basename(dirPath)}.${('0000'+i+1).slice(-4)}${extension}`)
+                    newPath: path.join(dirPath, `${shootId}_${path.basename(dirPath)}.${('0000'+theCounter).slice(-4)}${extension}`)
                 }
             );
-        } 
+        }
         // else handle subfolders in the wrong place and wrong files
     }
     return fileObjects;

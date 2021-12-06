@@ -28,8 +28,8 @@ const standardFolders = [
     `sho.a.prores`,
     `hyper.a.prores`,
     `hyper.b.prores`,
-    `hyper.c.prores`,
-    `hyper.d.prores`,
+    `hyper.a.h264`,
+    `hyper.b.h264`,
 ]
 
 const makeFolders = async function(folderPath) {
