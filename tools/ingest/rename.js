@@ -52,10 +52,15 @@ const getDirFiles = async function (dirPath, shootId) {
         const counter = i+1;
         if (element!==".DS_Store" && !fs.statSync(path.join(dirPath, element)).isDirectory()) {
             let extension = path.extname(path.join(dirPath, element));
+            let theCounter = 1+i
             fileObjects.push(
                 {
                     oldPath: path.join(dirPath, element),
+<<<<<<< HEAD
+                    newPath: path.join(dirPath, `${shootId}_${path.basename(dirPath)}.${('0000'+theCounter).slice(-4)}${extension}`)
+=======
                     newPath: path.join(dirPath, `${shootId}_${path.basename(dirPath)}.${('0000'+counter).slice(-4)}${extension}`)
+>>>>>>> 4c86f06e6ae4fc03d98c330e96b3d6fe7281b933
                 }
             );
         }
