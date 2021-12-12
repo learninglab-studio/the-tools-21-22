@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fcpxml>
+
+<fcpxml version="1.10">
+    <resources>
+        <format id="r1" name="FFVideoFormat1080p24" frameDuration="100/2400s" width="1920" height="1080" colorSpace="1-1-1 (Rec. 709)"/>
+        <effect id="r2" name="Custom" uid=".../Titles.localized/Build In:Out.localized/Custom.localized/Custom.moti"/>
+        <effect id="r3" name="Timecode" uid=".../Generators.localized/Elements.localized/Timecode.localized/Timecode.motn"/>
+        <asset id="r4" name="amx.01" uid="6D238F7ADBE94E7C1308DD452394BF0D" start="1340897/24s" duration="206s" hasVideo="1" format="r1" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
+            <media-rep kind="original-media" sig="6D238F7ADBE94E7C1308DD452394BF0D" src="file:///Volumes/storage/20121107_tests/amx/amx.01/amx.01.mp4">
+                <bookmark>Ym9va+ADAAAAAAQQMAAAAGg+ATUIfwpqcuvaq8G3p0dss88zHwu8KVZjGlpNMZUFAAMAAAQAAAADAwAAABgAKAcAAAABAQAAVm9sdW1lcwAHAAAAAQEAAHN0b3JhZ2UADgAAAAEBAAAyMDEyMTEwN190ZXN0cwAAAwAAAAEBAABhbXgABgAAAAEBAABhbXguMDEAAAoAAAABAQAAYW14LjAxLm1wNAAAGAAAAAEGAAAQAAAAIAAAADAAAABIAAAAVAAAAGQAAAAIAAAABAMAAMhmAAAAAAAACAAAAAQDAAACAAAAAAAAAAgAAAAEAwAAuEcAAAAAAAAIAAAABAMAAL9HAAAAAAAACAAAAAQDAADARwAAAAAAAAgAAAAEAwAAwkcAAAAAAAAYAAAAAQYAAJgAAACoAAAAuAAAAMgAAADYAAAA6AAAAAgAAAAABAAAQcOcMH8AAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAABgAAAABCQAAZmlsZTovLy9Wb2x1bWVzL3N0b3JhZ2UvCAAAAAQDAAAAkIKW5wAAAAgAAAAABAAAQcN3RUoM1ockAAAAAQEAADhCMEIxQTU0LUFEQ0ItNEUwRC04NjkxLUY0MUQwNzNBMThDQRgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAEAAAAAEBAAAvVm9sdW1lcy9zdG9yYWdlCAAAAAEJAABmaWxlOi8vLwQAAAABAQAAbWtfMAgAAAAABAAAQcOOkO8AAAAkAAAAAQEAAEM1NjdERTA4LTYwRTctNDg5NS1BQjIxLTg5OTA3NjBEMDVDQQEAAAABAQAALwAAAGAAAAD+////APAAAAAAAAAHAAAAAiAAAEQCAAAAAAAABSAAAOwBAAAAAAAAECAAAPwBAAAAAAAAESAAABgCAAAAAAAAEiAAAGgBAAAAAAAAEyAAAAgCAAAAAAAAICAAALQBAAAAAAAABAAAAAMDAAAA8AAABAAAAAMDAAAAAAAABAAAAAMDAAABAAAAHAAAAAEGAAC4AgAAxAIAANACAADEAgAAxAIAAMQCAADEAgAAqAAAAP7///8BAAAAUAIAAA0AAAAEEAAAeAAAAAAAAAAFEAAA+AAAAAAAAAAQEAAAKAEAAAAAAABAEAAAGAEAAAAAAAAAIAAA3AIAAAAAAAACIAAA1AEAAAAAAAAFIAAASAEAAAAAAAAQIAAAIAAAAAAAAAARIAAAiAEAAAAAAAASIAAAaAEAAAAAAAATIAAAeAEAAAAAAAAgIAAAtAEAAAAAAAAQ0AAABAAAAAAAAAA=</bookmark>
+            </media-rep>
+            <metadata>
+                <md key="com.apple.proapps.mio.cameraName" value="0"/>
+                <md key="com.apple.proapps.studio.rawToLogConversion" value="0"/>
+                <md key="com.apple.proapps.spotlight.kMDItemProfileName" value="HD (1-1-1)"/>
+                <md key="com.apple.proapps.studio.cameraISO" value="0"/>
+                <md key="com.apple.proapps.studio.cameraColorTemperature" value="0"/>
+                <md key="com.apple.proapps.spotlight.kMDItemCodecs">
+                    <array>
+                        <string>AAC</string>
+                        <string>H264/AVC</string>
+                    </array>
+                </md>
+                <md key="com.apple.proapps.mio.ingestDate" value="2021-12-05 07:29:21 -0500"/>
+            </metadata>
+        </asset>
+    </resources>
+    <library location="file:///Users/mk/Movies/Untitled.fcpbundle/">
+        <event name="12-5-21" uid="45B288C4-2905-420B-9343-07971E4E296B">
+            <project name="timeline-2" uid="773AA9A9-F8E9-4066-B088-8D3980D38DD2" modDate="2021-12-05 07:35:28 -0500">
+                <sequence format="r1" duration="447600/9600s" tcStart="3600s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
+                    <spine>
+                        <title ref="r2" offset="3600s" name="Student First - Custom" start="3600s" duration="12100/2400s">
+                            <param name="Alignment" key="9999/10199/10201/2/354/1002961760/401" value="1 (Center)"/>
+                            <param name="Alignment" key="9999/10199/10201/2/354/3001972070/401" value="1 (Center)"/>
+                            <param name="Out Sequencing" key="9999/10199/10201/4/10233/201/202" value="0 (To)"/>
+                            <param name="Font" key="9999/10199/10201/5/10203/83" value="163 8"/>
+                            <text>
+                                <text-style ref="ts1">Student First
+Student Last</text-style>
+                            </text>
+                            <text-style-def id="ts1">
+                                <text-style font="Helvetica Neue" fontSize="72" fontFace="Medium" fontColor="1 1 1 1" alignment="center"/>
+                            </text-style-def>
+                            <adjust-blend>
+                                <param name="amount">
+                                    <fadeIn type="linear" duration="971680/720000s"/>
+                                    <fadeOut type="linear" duration="871681/720000s"/>
+                                </param>
+                            </adjust-blend>
+                            <video ref="r3" lane="1" offset="3600s" name="Timecode" start="3600s" duration="111900/2400s">
+                                <param name="Background Color" key="9999/10128/10112/2/374" value="0 0 0 0.6"/>
+                                <param name="Label" key="9999/10128/10112/2/507/505" value="2021.12.05."/>
+                                <param name="Font" key="9999/10128/10112/5/10115/83" value="180 6"/>
+                                <param name="Center" key="9999/999664071/999664069/3/999664094/1" value="0.619462 0.405284"/>
+                                <param name="Mix" key="9999/999664071/999664069/3/999664094/10001" value="1"/>
+                                <param name="Flip" key="9999/999664071/999664069/3/999664094/10002" value="0"/>
+                                <param name="Input Points" key="9999/999664071/999664069/3/999664094/10003" value="1"/>
+                                <param name="Publish OSC" key="9999/999664071/999664069/3/999664094/10005" value="1"/>
+                                <param name="Angle" key="9999/999664071/999664069/3/999664094/2" value="30"/>
+                                <param name="Crop" key="9999/999664071/999664069/3/999664094/4" value="1"/>
+                            </video>
+                        </title>
+                        <asset-clip ref="r4" offset="34608400/9600s" name="amx.01" start="134119100/2400s" duration="84000/9600s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r4" offset="34692400/9600s" name="amx.01" start="536828000/9600s" duration="79600/9600s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r4" offset="34772000/9600s" name="amx.01" start="537141600/9600s" duration="46400/9600s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r4" offset="34818400/9600s" name="amx.01" start="537276000/9600s" duration="189200/9600s" tcFormat="NDF" audioRole="dialogue"/>
+                    </spine>
+                </sequence>
+            </project>
+        </event>
+        <smart-collection name="Projects" match="all">
+            <match-clip rule="is" type="project"/>
+        </smart-collection>
+        <smart-collection name="All Video" match="any">
+            <match-media rule="is" type="videoOnly"/>
+            <match-media rule="is" type="videoWithAudio"/>
+        </smart-collection>
+        <smart-collection name="Audio Only" match="all">
+            <match-media rule="is" type="audioOnly"/>
+        </smart-collection>
+        <smart-collection name="Stills" match="all">
+            <match-media rule="is" type="stills"/>
+        </smart-collection>
+        <smart-collection name="Favorites" match="all">
+            <match-ratings value="favorites"/>
+        </smart-collection>
+    </library>
+</fcpxml>
