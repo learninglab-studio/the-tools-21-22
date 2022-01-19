@@ -79,6 +79,13 @@ brew  install font-roboto-mono
 brew  install font-roboto-slab
 
 brew  install font-sacramento
+brew cask install font-work-sans
+brew cask install font-poppins
+brew cask install font-oswald
+brew cask install font-lobster
+brew cask install font-lobster-two
+brew cask install font-lato
+brew cask install font-karla
 
 
 ##############
