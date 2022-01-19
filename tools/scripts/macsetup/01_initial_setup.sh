@@ -1,34 +1,34 @@
 #!/bin/sh
 
-# after connecting to internet and while downloading mac apps
-# install homebrew
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+# # after connecting to internet and while downloading mac apps
+# # install homebrew
+# /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-# install git
-brew install git
+# # install git
+# brew install git
 
-# install atom and/or vs code too
-brew install atom
-brew install visual-studio-code
+# # install atom and/or vs code too
+# brew install atom
+# brew install visual-studio-code
 
-# make a Development directory & clone the-tools
-cd ~
-mkdir Development
-cd Development
-echo "cloning the tools"
-git clone https://github.com/learninglab-studio/the-tools-21-22.git
+# # make a Development directory & clone the-tools
+# cd ~
+# mkdir Development
+# cd Development
+# echo "cloning the tools"
+# git clone https://github.com/learninglab-studio/the-tools-21-22.git
 
 # handle .zshrc
 ZSHRC_PATH=~/.zshrc
-cd ~/Development/the-tools/tools/scripts/ex
+cd ~/Development/the-tools-21-22/tools/scripts/ex
 SCRIPTS_DIR=$(pwd)
 echo "export PATH=/usr/local/bin:${SCRIPTS_DIR}:\$PATH" >> $ZSHRC_PATH
 echo "PROMPT='%2~ %# '" >> $ZSHRC_PATH
 
 # install node and then dependencies for theTools
-brew install node
-cd ~/Development/the-tools-21-22
-npm install
+# brew install node
+# cd ~/Development/the-tools-21-22
+# npm install
 
 
 # run all the other scripts
@@ -44,10 +44,11 @@ cd ~/Development/the-tools-21-22/tools/scripts/macsetup
 
 # there are a LOT here--don't install when there isn't enough
 # memory to handle all of these in apps that display font previews
-./04_fonts.sh
+# ./04_fonts.sh
+./04b_some_fonts.sh
 
 # extras
-./05_atom.sh
+# ./05_atom.sh
 
 #npm packages
 ./06_npm.sh

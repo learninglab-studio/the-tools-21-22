@@ -67,6 +67,9 @@ brew  install unity-hub
 # skype
 # brew  install skype
 
+# zoom
+brew install zoom
+
 # clipgrab
 brew  install clipgrab
 
@@ -79,22 +82,11 @@ brew install imagemagick
 # exiftool
 brew install exiftool
 
-
-
-#########
-# fonts #
-#########
-
-###########
-# drivers #
-###########
-
-brew tap homebrew/-drivers
-# brew  install nvidia-cuda
-# brew  install sonos
+# spotify
 brew  install spotify
+
+# synology assistant
 brew  install synologyassistant
-# brew  install xbox360-controller-driver-unofficial
 
 # ableton & max
 brew  install ableton-live-lite
