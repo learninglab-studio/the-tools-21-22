@@ -15,7 +15,7 @@
 # cd ~
 # mkdir Development
 # cd Development
-# echo "cloning the tools"
+# echo "cloning the toolPs"
 # git clone https://github.com/learninglab-studio/the-tools-21-22.git
 
 # handle .zshrc
