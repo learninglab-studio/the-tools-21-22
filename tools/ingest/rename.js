@@ -56,11 +56,7 @@ const getDirFiles = async function (dirPath, shootId) {
             fileObjects.push(
                 {
                     oldPath: path.join(dirPath, element),
-<<<<<<< HEAD
                     newPath: path.join(dirPath, `${shootId}_${path.basename(dirPath)}.${('0000'+theCounter).slice(-4)}${extension}`)
-=======
-                    newPath: path.join(dirPath, `${shootId}_${path.basename(dirPath)}.${('0000'+counter).slice(-4)}${extension}`)
->>>>>>> 4c86f06e6ae4fc03d98c330e96b3d6fe7281b933
                 }
             );
         }
