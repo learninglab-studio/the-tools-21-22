@@ -29,8 +29,8 @@ const standardFolders = [
     `hyper.a.prores`,
     `hyper.b.prores`,
     `hyper.a.h264`,
-    `hyper.b.h264`
-    `hyper.c.h264`
+    `hyper.b.h264`,
+    `hyper.c.h264`,
     `hyper.d.h264`,
 ]
 
