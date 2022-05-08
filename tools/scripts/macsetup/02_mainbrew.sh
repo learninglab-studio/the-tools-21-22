@@ -11,8 +11,8 @@
 
 # fontforge
 # making xquartz first to require pw
-# brew  install xquartz
-# brew  install fontforge
+brew  install xquartz
+brew  install fontforge
 
 # mac app store installer
 # brew install mas
@@ -28,7 +28,7 @@ brew install youtube-dl
 # brew install hub
 
 # mysql
-brew install mysql
+# brew install mysql
 
 
 #########
@@ -38,31 +38,31 @@ brew install mysql
 
 
 # Chrome
-brew  install google-chrome
+brew install google-chrome
 
 # Firefox
-brew  install firefox
+brew install firefox
 
 # Dropbox
 # brew  install dropbox
 
 # VLC
-brew  install vlc
+brew install vlc
 
 # nvAlt
 # brew  install nvalt
 
 # Blender
-brew  install blender
+brew install blender
 
 # Adobe Creative Cloud Installer (open next)
-brew  install adobe-creative-cloud
+brew install adobe-creative-cloud
 
 # epic games launcher
-brew  install epic-games
+brew install epic-games
 
 # unity
-brew  install unity-hub
+brew install unity-hub
 
 # skype
 # brew  install skype
@@ -71,7 +71,7 @@ brew  install unity-hub
 brew install zoom
 
 # clipgrab
-brew  install clipgrab
+brew install clipgrab
 
 # heroku (then run `heroku login`)
 brew tap heroku/brew && brew install heroku
@@ -83,11 +83,11 @@ brew install imagemagick
 brew install exiftool
 
 # spotify
-brew  install spotify
+# brew install spotify
 
 # synology assistant
-brew  install synologyassistant
+# brew install synologyassistant
 
 # ableton & max
-brew  install ableton-live-lite
-brew  install cycling74-max
+brew install ableton-live-lite
+brew install cycling74-max
