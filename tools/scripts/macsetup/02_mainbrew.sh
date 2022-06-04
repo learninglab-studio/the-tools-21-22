@@ -11,8 +11,8 @@
 
 # fontforge
 # making xquartz first to require pw
-# brew  install xquartz
-# brew  install fontforge
+brew  install xquartz
+brew  install fontforge
 
 # mac app store installer
 # brew install mas
@@ -56,7 +56,7 @@ brew  install vlc
 brew  install blender
 
 # Adobe Creative Cloud Installer (open next)
-brew  install adobe-creative-cloud
+# brew  install adobe-creative-cloud
 
 # epic games launcher
 brew  install epic-games
@@ -86,7 +86,7 @@ brew install exiftool
 brew  install spotify
 
 # synology assistant
-brew  install synologyassistant
+# brew  install synologyassistant
 
 # ableton & max
 brew  install ableton-live-lite

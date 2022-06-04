@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# open FCPX to make sure the later prefs work
-
-open -a "Final Cut Pro.app"
 
 # power management for desktops
 sudo pmset displaysleep 180
@@ -21,10 +18,6 @@ defaults write com.apple.finder AppleShowAllFiles -bool YES && killall Finder
 
 # show scroll bars only on scroll
 defaults write NSGlobalDomain AppleShowScrollBars WhenScrolling
-
-# save screenshots to desktop
-mkdir ~/Desktop/screenshots
-defaults write com.apple.screencapture location ~/Desktop/Screenshots
 
 # make library visible
 chflags nohidden ~/Library/
@@ -121,13 +114,6 @@ defaults write com.apple.menuextra.battery ShowPercent -bool YES
 # Disable Autocorrect
 defaults write -g NSAutomaticSpellingCorrectionEnabled -bool false
 
-# install FCPX first
-defaults write -app "Final Cut Pro" FFDefaultStillDuration -int 2
-defaults write -app "Final Cut Pro" FFImportCopyToMediaFolder -bool false
-defaults write -app "Final Cut Pro" FFCreateOptimizedMediaForMulticamClips -bool false
-
-# stop spotify from opening when you log in
-defaults write com.spotify.client AutoStartSettingIsHidden -bool false
 
 # Kill affected applications
 for app in Finder Dock Mail Safari iTunes iCal Address\ Book SystemUIServer; do killall "$app" > /dev/null 2>&1; done
