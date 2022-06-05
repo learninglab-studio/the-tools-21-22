@@ -7,44 +7,16 @@
 # git should already be installed by the 01_start.sh script
 # brew install git
 
-
-
-# fontforge
-# making xquartz first to require pw
+# brew  install google-chrome
 # brew  install xquartz
 # brew  install fontforge
-
-# mac app store installer
 # brew install mas
-# aws cli
-brew install awscli
-
-# ffmpeg (and ffprobe)
-brew install ffmpeg
-# youtube-dl
+# brew install awscli
+# brew install ffmpeg
 brew install youtube-dl
-
-# GitHub's hub utility
-# brew install hub
-
-# mysql
-brew install mysql
-
-
-#########
-# s #
-#########
-
-
-
-# Chrome
-brew  install google-chrome
-
-# Firefox
-brew  install firefox
-
-# Dropbox
-# brew  install dropbox
+# brew install mysql
+brew install firefox
+# brew install dropbox
 
 # VLC
 brew  install vlc
@@ -53,16 +25,16 @@ brew  install vlc
 # brew  install nvalt
 
 # Blender
-brew  install blender
+brew install blender
 
 # Adobe Creative Cloud Installer (open next)
-brew  install adobe-creative-cloud
+# brew install adobe-creative-cloud
 
 # epic games launcher
-brew  install epic-games
+brew install epic-games
 
 # unity
-brew  install unity-hub
+brew install unity-hub
 
 # skype
 # brew  install skype
@@ -71,7 +43,7 @@ brew  install unity-hub
 brew install zoom
 
 # clipgrab
-brew  install clipgrab
+brew install clipgrab
 
 # heroku (then run `heroku login`)
 brew tap heroku/brew && brew install heroku
@@ -83,11 +55,11 @@ brew install imagemagick
 brew install exiftool
 
 # spotify
-brew  install spotify
+brew install spotify
 
 # synology assistant
-brew  install synologyassistant
+# brew  install synologyassistant
 
 # ableton & max
-brew  install ableton-live-lite
-brew  install cycling74-max
+# brew  install ableton-live-lite
+# brew  install cycling74-max
